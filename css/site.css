@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headert{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.headert .hl{
+    color: white;
+    margin-top: 30px;
+    border-bottom: 2px solid white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headert .logo{
+    border-bottom: 2px solid white;
+}
+.border{
+    margin-top: 20px;
+    background-color: #678B37;
+    padding: 20px;
+    width: 190px;
+    margin-left: 390px;
+    border: 5px solid #CED086;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.header_uudai .border p{
+    color: azure;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.header_uudai .border i{
+    font-size: small;
+    color: azure;
+}
+.bd::-webkit-input-placeholder{
+    color: rgb(255, 255, 255);
+}
+.header_uudai .border .login .bd{
+    background-color:#678B37;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.329) ;
+    padding: 4%;
+    border-top-color: rgba(124, 124, 124, 0.089);
+    border-left-color: rgba(124, 124, 124, 0.089);
+    border-right-color: rgba(124, 124, 124, 0.089);
+}
+.header_uudai .border .button{
+    background-color: #C5D301;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    color: white;
+    border-radius: 5px;
+}
+.header_uudai .border .button:hover{
+    cursor: pointer;
+    color: blue;
+}
+.content_1 .para1 span{
+    text-align: center;
+}
+.content_1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 30px;
+    padding: 0 180px;
+}
+.content_1 .img1 img{
+    border: #2D8C15;
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 10px;
+   
+}
+.content_1 .para1{
+    padding-left: 30px;
+}
+.content_1 .para1 .text1{
+    margin-top: 10px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+/*--------------------------------------------------*/
+.content_2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 30px;
+    padding: 0 180px;
+}
+
+.content_2 .img2 img{
+    border: #2D8C15;
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 10px;
+    
+}
+.content_2 .para2{
+    padding-right: 30px;
+}
+.content_2 .para2 .text2{
+    margin-top: 10px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+.slidebar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20% 0 20%;
+    
+}
+.slidebar .slidebar1{
+    color: white;
+    margin-right: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slidebar .slidebar1 h3{
+    text-align: center;
+    border-bottom:1px solid white ;
+}
+.ft{
+    padding: 0 210px 0 0;
+    border-color: rgba(255, 255, 255, 0.055);
+   
+}
+.TQ1{
+    margin: 0 20% 0 20%;
+}
+.body{
+    column-gap: 20px;
+}
+.body .cot3{
+    width:50%;
+    float: left;
+}
+.body .cot4{
+    width:50%;
+    float: right;
+}
+
+.cotp{
+    display: flex;
+    flex-direction: column;
+}
+.ft1{
+    padding: 0 150px 0 150px;
+    color: white;
+    background-color: #2A6E01;
+    border-color: rgba(255, 255, 255, 0.055);
+    
+}
+.ftt{
+    margin-bottom: 10px;
+}
+
+.body .cot4 .cott1 .ft1:hover{
+    cursor: pointer;
+    color: yellow;
+}
+
